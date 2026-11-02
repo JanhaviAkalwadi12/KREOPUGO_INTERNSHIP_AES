@@ -1,0 +1,156 @@
+/* CSS moved from inline style block */
+body{margin:0;background:#f7f9fc;font-family:Arial,sans-serif;color:#384454}.wrap{max-width:850px;margin:50px auto;padding:0 20px}.paper{background:#fff;border:1px solid #e4e8ee;border-radius:18px;box-shadow:0 15px 35px rgba(18,62,115,.10);padding:42px}.k{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#7a2237;font-weight:800}h1{color:#123e73;margin:8px 0 10px}h2{color:#7a2237;border-bottom:2px solid #eef1f5;padding-bottom:8px}p{line-height:1.75}.note{background:#eef4fa;border-left:4px solid #123e73;padding:14px 16px;border-radius:8px;margin:20px 0}
+
+
+/* CSS moved from inline style block */
+.page-scroll-controls{position:fixed;right:22px;bottom:22px;z-index:9999;display:flex;flex-direction:column;gap:9px}
+.page-scroll-btn{width:42px;height:42px;border:0;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#123f73;color:#fff;box-shadow:0 4px 14px rgba(0,0,0,.18);cursor:pointer;font-size:20px;line-height:1;transition:transform .2s,opacity .2s,background .2s;padding:0}
+.page-scroll-btn:hover{transform:translateY(-2px);background:#8b2335}
+.page-scroll-btn:focus-visible{outline:3px solid rgba(18,63,115,.35);outline-offset:2px}
+@media(max-width:575px){.page-scroll-controls{right:14px;bottom:16px;gap:7px}.page-scroll-btn{width:38px;height:38px;font-size:18px}}
+
+
+/* CSS moved from inline style block */
+.model-paper-back{display:inline-flex;align-items:center;gap:8px;margin:0 0 22px;padding:10px 18px;border-radius:6px;background:#123f73;color:#fff!important;text-decoration:none;font-weight:600;box-shadow:0 3px 10px rgba(0,0,0,.12);transition:background .2s,transform .2s}.model-paper-back:hover{background:#8b2335;transform:translateY(-1px);color:#fff!important}
+
+
+/* CSS moved from inline style block */
+/* Corrected responsive mobile layout for Alnavar school website */
+html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+*, *::before, *::after { box-sizing:border-box; }
+img, video, iframe, embed, object { max-width:100%; }
+img, video { height:auto; }
+body { width:100%; max-width:100%; overflow-x:hidden; }
+.school-header, .school-header .container, .school-brand, .school-title { min-width:0; }
+.school-brand { display:flex; align-items:center; gap:14px; width:100%; text-decoration:none; }
+.school-logo { object-fit:contain; flex:0 0 auto; }
+.school-title { flex:1 1 auto; overflow-wrap:anywhere; }
+.school-title .society-name, .school-title .school-name, .school-title .school-location { white-space:normal; overflow-wrap:anywhere; }
+.school-menu { width:100%; max-width:100%; }
+.school-menu .menu-scroll { max-width:100%; }
+.school-menu .school-menu-list { min-width:0; }
+.container, .container-fluid, .row, section, main, header, footer { min-width:0; }
+.table-responsive { max-width:100%; overflow-x:auto; -webkit-overflow-scrolling:touch; }
+iframe, video { display:block; max-width:100%; }
+@media (max-width: 991.98px) {
+  .school-header .container { width:100%; max-width:100%; padding-left:14px; padding-right:14px; }
+  .school-brand { gap:10px; }
+  .school-logo { width:78px !important; height:78px !important; }
+  .school-title .society-name { font-size:clamp(13px, 2.4vw, 18px) !important; line-height:1.25; }
+  .school-title .school-name { font-size:clamp(12px, 2.1vw, 16px) !important; line-height:1.3; }
+  .school-title .school-location { font-size:12px; }
+  .school-menu .container-fluid { padding-left:6px; padding-right:6px; }
+  .school-menu .school-menu-list { display:flex !important; flex-wrap:wrap !important; justify-content:center !important; width:100%; }
+  .school-menu .nav-item { flex:0 0 auto; }
+  .school-menu .nav-link { padding:9px 10px !important; font-size:12px !important; white-space:normal; }
+  .school-menu .dropdown-menu { position:static !important; float:none; width:100%; max-width:100%; box-shadow:none; border:0; margin:0; }
+  .container, .container-fluid { max-width:100%; }
+  .row { margin-left:-8px; margin-right:-8px; }
+  .row > [class*="col-"] { padding-left:8px; padding-right:8px; }
+  .ftco-hero, .hero-wrap, .slider-item, .home-slider, .hero-section { min-height:0 !important; }
+  .slider-item .container, .hero-wrap .container { padding-top:35px !important; padding-bottom:35px !important; }
+  .ftco-section { padding-top:45px !important; padding-bottom:45px !important; }
+  .table-responsive { display:block; width:100%; }
+  table { max-width:100%; }
+}
+@media (max-width: 575.98px) {
+  body { font-size:15px; line-height:1.55; }
+  .school-header { padding:10px 0; }
+  .school-brand { align-items:center; gap:8px; }
+  .school-logo { width:58px !important; height:58px !important; }
+  .school-title .society-name { font-size:12px !important; line-height:1.2; }
+  .school-title .school-name { font-size:11px !important; line-height:1.25; }
+  .school-title .school-location { font-size:10px !important; }
+  .school-title .registered-mark { font-size:inherit; vertical-align:baseline; }
+  .school-menu .school-menu-list { justify-content:flex-start !important; }
+  .school-menu .nav-link { padding:8px 9px !important; font-size:11px !important; }
+  h1 { font-size:clamp(24px, 7vw, 32px) !important; line-height:1.2; }
+  h2 { font-size:clamp(21px, 5.8vw, 28px) !important; line-height:1.25; }
+  h3 { font-size:clamp(18px, 5vw, 23px) !important; line-height:1.3; }
+  p, li { overflow-wrap:anywhere; }
+  .container, .container-fluid { padding-left:12px !important; padding-right:12px !important; }
+  .row { margin-left:-6px; margin-right:-6px; }
+  .row > [class*="col-"] { padding-left:6px; padding-right:6px; }
+  .btn { white-space:normal; }
+  .card, .staff, .services, .event-card, .gallery-item { max-width:100%; }
+  .table-responsive { overflow-x:auto; }
+  .table-responsive table { min-width:560px; }
+  footer .row { row-gap:18px; }
+  .page-scroll-controls { right:10px !important; bottom:12px !important; }
+  .page-scroll-btn { width:36px !important; height:36px !important; }
+}
+@media (max-width: 360px) {
+  .school-logo { width:50px !important; height:50px !important; }
+  .school-title .society-name { font-size:10px !important; }
+  .school-title .school-name { font-size:10px !important; }
+  .school-brand { gap:6px; }
+}
+
+
+/* CSS moved from inline style block */
+/* Hide the small light-blue section-label words throughout the website. */
+.academics-kicker, .academic-kicker, .board-kicker, .school-page-modern .eyebrow, .beyond-kicker, .about-us-kicker, .student-life-eyebrow, .school-section-kicker, .sl-kicker, .section-kicker, .hero-kicker, .hero-eyebrow, .page-kicker, .page-eyebrow, .leadership-kicker, .directory-label { display: none !important; }
+
+
+[data-external-css="s513"] { color:#155493; }
+
+
+[data-external-css="s514"] { color:#7b2031; }
+
+
+[data-external-css="s515"] { color:#155493; }
+
+
+[data-external-css="s516"] { color:#155493; }
+
+
+[data-external-css="s517"] { color:#155493; }
+
+
+[data-external-css="s518"] { color:#155493; }
+
+
+/* Mobile navigation: collapsed by default, no stray horizontal scrollbar */
+@media (max-width: 991.98px) {
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+  #ftco-navbar.school-menu {
+    width: 100%;
+    max-width: 100%;
+    overflow: visible !important;
+  }
+  #ftco-navbar .menu-scroll {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    width: 100%;
+    max-width: 100%;
+    overflow: visible !important;
+    overflow-x: hidden !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+  #ftco-navbar .menu-scroll::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+  #ftco-navbar .mobile-menu-toggle {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto !important;
+    flex: 0 0 auto;
+  }
+  #ftco-navbar .school-menu-list {
+    display: none !important;
+    width: 100% !important;
+    max-height: none !important;
+    overflow: visible !important;
+  }
+  #ftco-navbar .school-menu-list.mobile-open {
+    display: flex !important;
+  }
+}
