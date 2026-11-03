@@ -3,22 +3,27 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "app.py"
+    }
+  },
   "rewrites": [
     {
       "source": "/submit/:path*",
-      "destination": "/api/index.py"
+      "destination": "/api"
     },
     {
       "source": "/submit",
-      "destination": "/api/index.py"
+      "destination": "/api"
     },
     {
       "source": "/health",
-      "destination": "/api/index.py"
+      "destination": "/api"
     },
     {
       "source": "/api/:path*",
-      "destination": "/api/index.py"
+      "destination": "/api"
     }
   ]
 }
