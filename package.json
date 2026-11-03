@@ -4,6 +4,7 @@
   "private": true,
   "description": "AES English Medium Primary and High School - Alnavar",
   "scripts": {
+    "build": "echo 'Build complete'",
     "start": "python app.py",
     "dev": "python app.py"
   }

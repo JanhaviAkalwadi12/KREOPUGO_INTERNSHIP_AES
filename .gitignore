@@ -9,5 +9,6 @@ venv/
 ENV/
 env/
 .vercel
+*.zip
 .DS_Store
 Thumbs.db
